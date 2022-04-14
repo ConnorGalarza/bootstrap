@@ -1,0 +1,38 @@
+
+#carouselExampleCaptions{
+    width: 800px;
+    height: 800px;
+    padding-top: 105px;
+}
+
+.container{
+    display: grid;
+        grid-template-areas:
+        "content1 content2"
+        "content1 content2"
+        "content1 content2";
+        height: 100vh;
+        
+        grid-gap: 80px;
+}
+#column2{
+    font-size: 15px;
+}
+#column1{
+    text-align: center;
+}
+h1{
+    padding-top: 40px;
+    text-align: center;
+}
+#footer{
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    height:30px;
+    width:100%;
+    text-align: center;
+    color: white;
+    background:#242526;
+    font-family: 'Josefin+Sans&display', sans-serif;
+}
